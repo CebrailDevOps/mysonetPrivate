@@ -117,7 +117,7 @@ try {
     }
 
     amis.forEach(ami => {
-        fetch(`http://${ami.ip_add}/mes_postes.php?token=${userToken}`)
+        fetch(`https://${ami.ip_add}/mes_postes.php?token=${userToken}`)
             .then(response => response.json())
             .then(postes => {
                 let posteDiv = document.getElementById('postes_amis');

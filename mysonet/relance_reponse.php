@@ -25,7 +25,7 @@
 
             $ip_add = shell_exec("cat /home/inspectorsonet/mysonetPrivate");
 
-            $url = 'http://'.$demande['ip_demandeur'].'/accepte.php?ref_demande='.$demande['ref_demande'].'&ip_add='. $ip_add.'&token='. $token;
+            $url = 'https://'.$demande['ip_demandeur'].'/accepte.php?ref_demande='.$demande['ref_demande'].'&ip_add='. $ip_add.'&token='. $token;
 
             $ch = curl_init($url);
 
