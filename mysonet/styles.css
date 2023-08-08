@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.content a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.content a:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    width: 60%;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.navbar {
+  background-color: #e0e0e0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+.navbar .notif-link {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .notif-count {
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+.navbar a:hover {
+  background-color: #b0b0b0;
+}
+
+input[type="submit"].edit-button, input[type="submit"].delete-button {
+  padding: 5px 10px;
+  width: auto;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+input[type="submit"].edit-button:hover, input[type="submit"].delete-button:hover {
+  background-color: #e0e0e0;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px -1px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.poste {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.demande-ami {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+
+
+.demande-ami p {
+  margin: 0;
+  padding: 0;
+}
+
+.demande-ami form {
+  margin-left: 10px;
+}
+
+.demande-ami button {
+  padding: 5px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.demande-ami button {
+  background-color: #f9f9f9;
+  color: white;
+}
+
+.demande-ami button:hover {
+  background-color: #e0e0e0;
+}
