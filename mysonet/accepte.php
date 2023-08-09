@@ -44,7 +44,7 @@ if (isset($_GET['ref_demande']) AND isset($_GET['ip_add']) AND isset($_GET['toke
         }
         // Écrire le nouveau tableau dans le fichier
         file_put_contents($file_path, implode(PHP_EOL, $new_lines));
-        header('Location: https://mysonet.online/reponse.php?ref_demande='.$ref_demande.'&ip_add='. $ip_add.'&token='.$mon_token);
+        header('Location: http://mysonet.online/reponse.php?ref_demande='.$ref_demande.'&ip_add='. $ip_add.'&token='.$mon_token);
     }
 }
 ?>

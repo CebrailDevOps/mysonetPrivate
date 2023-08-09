@@ -20,7 +20,7 @@ if (isset($_POST['ref_demande'])) {
         $stmt->execute();
 
         $ip_add=shell_exec("cat /home/inspectorsonet/mysonetPrivate");
-        header('Location: https://mysonet.online/reponse.php?ref_demande='.$ref_demande.'&ip_add='. $ip_add);
+        header('Location: http://mysonet.online/reponse.php?ref_demande='.$ref_demande.'&ip_add='. $ip_add);
     } catch(PDOException $e) {
         echo "Connection failed: " . $e->getMessage();
     }

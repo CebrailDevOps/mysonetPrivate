@@ -61,7 +61,7 @@ if (isset($_POST['ref_demande'])) {
             $ip_add_full = shell_exec("hostname -I");
             $ip_add_array = explode(' ', $ip_add_full);
             $ip_add = $ip_add_array[0]; // Prend la première adresse IP
-            header('Location: https://'.$ip_demandeur.'/accepte.php?ref_demande='.$ref_demande.'&ip_add='. $ip_add.'&token='. $token);
+            header('Location: http://'.$ip_demandeur.'/accepte.php?ref_demande='.$ref_demande.'&ip_add='. $ip_add.'&token='. $token);
             exit();
         }
         
